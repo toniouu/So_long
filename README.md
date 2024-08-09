@@ -1,2 +1,3 @@
 # So_long
-Mon premier projet graphique chez 42
+
+/* - - - - - LE TOUT PREMIER PROJET GRAPHIQUE CHEZ 42 - - - - - *\
