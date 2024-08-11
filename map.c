@@ -89,12 +89,6 @@ void	map_size(t_map *map, t_game *game)
 		map->y++;
 	game->w = map->x * 32;
 	game->h = map->y * 32;
-	if (map->x == map->y)
-	{
-		write (1, "Le map doit être rectangulaire !\n", 33);
-		ft_free_tab(map->map);
-		exit(EXIT_FAILURE);
-	}
 }
 
 void	count_elements(t_map *map)
