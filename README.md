@@ -31,17 +31,24 @@ Makefile : Automatisation de la compilation avec un Makefile.
 
 1. Cloner le dépôts :
    
-   git clone https://github.com/toniouu/So_long.git
+       git clone https://github.com/toniouu/So_long.git
    
-   cd So_long
+       cd So_long
 
 3. Compiler le projet :
-   
-   make
+
+       make
 
 5. Lancer le jeu :
    
-   ./so_long Map/my_map.ber
+       ./so_long Map/my_map.ber
+
+
+Si la compilation ne marche pas correctement, essayer d'installer les packages nécéssaires pour pouvoir compiler le Minilibx:
+
+    sudo apt install libx11-dev libxext-dev libxpm-dev libxrandr-dev
+
+Puis relancer le jeu.
 
 🗺️ Format des Cartes
 
