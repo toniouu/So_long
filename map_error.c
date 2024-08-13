@@ -17,8 +17,8 @@ void	checking_ber(char *map)
 	int	i;
 
 	i = ft_strlen(map);
-	if (map[i - 1] != 'r' && map[i - 2] != 'e'
-		&& map[i - 3] != 'b' && map[i - 4] != '.')
+	if (map[i - 1] != 'r' || map[i - 2] != 'e'
+		|| map[i - 3] != 'b' || map[i - 4] != '.')
 	{
 		write (1, "Veuillez entrer un map en extension .ber\n", 41);
 		exit(EXIT_FAILURE);
