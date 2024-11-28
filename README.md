@@ -74,6 +74,4 @@ E : Sortie
 Remarque : J'étais trop proche du blackhole quand j'ai fait ce projet, donc c'est normal si ce n'est pas encore trop top, mais je vais essayer de l'ameliorer petit à petit pour que ça soit agréable. Merci pour votre compréhension...
 
 
-📞 Contact
 
-Pour toute question ou suggestion, n'hésitez pas à me contacter à maminiaina.tonio@gmail.com.
